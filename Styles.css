@@ -1,0 +1,380 @@
+/* font-family: 'Dancing Script', cursive; */
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+
+/* font-family: 'Lugrasimo', cursive; */
+@import url("https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap");
+
+/* font-family: 'Dai Banna SIL', serif; */
+@import url("https://fonts.googleapis.com/css2?family=Dai+Banna+SIL:ital,wght@1,500&display=swap");
+
+body {
+  background-color: rgb(239, 223, 205);
+}
+
+.logo {
+  width: 200px;
+  border-radius: 400px;
+  margin-top: -17px;
+}
+
+li {
+  list-style-type: None;
+}
+
+ul {
+  list-style: none;
+  margin-top: -50px;
+  padding: 0;
+}
+
+/* 
+nav {
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  opacity: 0.9;
+  border: solid;
+  margin-bottom: -200px;
+} */
+
+.nav-bar{
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+  
+}
+
+header li {
+  float: right;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.imagenav3 {
+  width: 200px;
+  margin-bottom: 50px;
+}
+
+.Nav1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+}
+
+.Nav2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 2px;
+  width: 100%;
+  padding: 1em 0;
+  background-color: rgb(94, 62, 39);
+
+}
+
+.main{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+  width: 80%;
+}
+
+.DOG {
+  width: 300px;
+  margin-top: -100px;
+}
+
+.empreinte {
+  width: 100px;
+}
+
+
+
+a {
+  list-style-type: none;
+  color: black;
+  margin-top: 50px;
+  color: white;
+  text-decoration: none;
+}
+.imgprésentation {
+  width: 40%;
+}
+
+p {
+  text-align: center;
+  font-family: "Dai Banna SIL", serif;
+}
+/* 
+.boxprincipale {
+  border-radius: 50px;
+  box-shadow: 0 0 1em rgb(177, 117, 158), 0 0 2em palevioletred;
+  /* box-shadow: 50px 10px 20px rgb(255, 216, 223); */
+/* margin-left: 300px;
+  margin-right: 300px;
+  background-color: rgb(255, 255, 255);
+} */
+
+/* Section 1 */
+
+#section1 {
+  /* background-color: rgb(190, 164, 145); */
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+.Présentation {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 1.2em;
+  background-color: white;
+  border-radius: 50px 50px;
+}
+
+.chien1 {
+  width: 400px;
+}
+
+.chienp1 {
+  /* width: 115px;
+  margin-top: 250px;
+  padding-right: 175px; */
+  display: flex;
+  width: 20%;
+  flex-direction: row;
+}
+
+.chienp1 img {
+  width: 7em;
+  margin: auto;
+  align-self: center;
+}
+
+.Asavoir1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  flex-grow: 1;
+  width: 20%;
+}
+
+/* Section 2 */
+
+#section2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 50px;
+  margin-top: 30px;
+}
+
+.section2part1 {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.section2part2 {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.box {
+  border-radius: 100px;
+  background-color: rgb(220, 201, 180);
+  text-align: center;
+  width: 30%;
+  height: 35em;
+  margin: 3em 5em;
+  box-shadow: 0 0 1em rgb(78, 60, 44), 0 0 2em rgb(138, 120, 82);
+  overflow: hidden;
+}
+
+.box:first-child{
+  margin-right: 0em;
+}
+
+.box:last-child{
+  margin-left: 0em;
+}
+
+.box p{
+  padding: 0.8em;
+  /* disable scroll bar */
+}
+
+
+.img {
+  border-radius: 200px;
+  margin-top: 60px;
+  box-shadow: 0 1em rgb(255, 255, 255);
+}
+
+.Dancing {
+  font-family: "Dancing Script", cursive;
+  color: rgb(202, 120, 120);
+  font-size: 50px;
+  margin: auto;
+}
+
+#section3 {
+  margin-top: 2.5em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+
+  text-align: center;
+  font-size: 23px;
+}
+
+.imgsect3 {
+  border-radius: 50px;
+  width: 50%;
+}
+
+.section3-element{
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+  text-align: center;
+  
+}
+
+.section3-element p{
+  padding: 0 1.8em;
+}
+
+#section4 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 50px;
+  margin-top: 30px;
+  width: 90%;
+  
+}
+
+.section4-container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.dog_race_box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  width: 30%;
+  box-sizing: content-box;
+}
+
+#imgTest{
+  width: 30em;
+  height: 25em;
+  object-fit: cover;
+  border-radius: 25px;
+}
+
+#dog_race_title{
+  padding-left: 2em;
+}
+
+.section4 {
+  background-color: antiquewhite;
+  border-radius: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  padding-bottom: 1em;
+}
+
+.Lesraces {
+  height: 50px;
+  margin: 1.2em 2em;
+  width: 25em;
+  border-radius: 0.8em;
+  padding: .4em;
+}
+
+#section4 P {
+  font-size: 30px;
+}
+
+#Footer{
+  background-color:  rgb(94, 62, 39);
+padding: 20px 0 10px 0 ;
+text-align: center;
+margin-top: 120px;
+border-radius: 20px;
+
+}
+
+form{
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+input, textarea, button {
+  border: none;
+  width: 55%;
+  padding: 15px 10px;
+  margin: 1px 0 ;
+  font-size: 1.2em;
+  font-family: 'Advent Pro', sans-serif; 
+  border-radius: 20px;
+}
+
+
+textarea {
+  height: 120px;
+}
+
+button{
+  font-size: 1.5em;
+  background-color: antiquewhite;
+}
+
+button:hover {
+  background-color: rgb(94, 33, 45);
+  color: antiquewhite;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+#Traitfooter{
+  height: 1px;
+  width: 75%; 
+  background-color: antiquewhite;
+  margin: 60px auto ;
+}
+
+.Textfooter{
+  color: antiquewhite;
+  font-family:"Dancing Script", cursive;
+  font-size: 50px;
+}
