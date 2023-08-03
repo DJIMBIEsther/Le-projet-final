@@ -27,16 +27,6 @@ ul {
   padding: 0;
 }
 
-/* 
-nav {
-  overflow: hidden;
-  background-color: rgb(255, 255, 255);
-  width: 100%;
-  opacity: 0.9;
-  border: solid;
-  margin-bottom: -200px;
-} */
-
 .nav-bar{
   display: flex;
   width: 70%;
@@ -44,6 +34,7 @@ nav {
   align-items: center;
   flex-direction: column;
   margin: auto;
+  margin-top: -10px;
   
 }
 
@@ -112,20 +103,10 @@ p {
   text-align: center;
   font-family: "Dai Banna SIL", serif;
 }
-/* 
-.boxprincipale {
-  border-radius: 50px;
-  box-shadow: 0 0 1em rgb(177, 117, 158), 0 0 2em palevioletred;
-  /* box-shadow: 50px 10px 20px rgb(255, 216, 223); */
-/* margin-left: 300px;
-  margin-right: 300px;
-  background-color: rgb(255, 255, 255);
-} */
 
-/* Section 1 */
-
+/* section 1 */
 #section1 {
-  /* background-color: rgb(190, 164, 145); */
+
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -148,14 +129,17 @@ p {
 }
 
 .chienp1 {
-  /* width: 115px;
-  margin-top: 250px;
-  padding-right: 175px; */
   display: flex;
   width: 20%;
   flex-direction: row;
 }
 
+.autocollant1{
+  margin: auto;
+  align-self:Center ;
+  margin-top: 9em;
+
+}
 .chienp1 img {
   width: 7em;
   margin: auto;

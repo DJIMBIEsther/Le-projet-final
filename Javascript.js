@@ -1,40 +1,4 @@
 
-
-/*
-    pour le js
-
-    créer un dictionnaire qui va contenir les images des races, 
-    les clés seront les nom des races et les valeurs seront les images (chemin d'accès) correspondantes
-
-    ensuite dans créé dans html une balise img qui contenir notre image avec une position absolute et un id 
-
-    lorsque la souris hover sur l'element on récupère le nom et on le compare avec le dictionnaire pour afficher l'image correspondante
-
-    ex: 
-    var dict = {
-        "race1": "./Races/race1.png",
-        "race2": "./Races/race2.png",
-    }
-
-    var img = document.getElementById("id de l'image");
-
-
-
-    img.addEventListener("mouseover", function(){
-        
-
-
-
-*/
-
-// actuellement j'ai renommé l'ensemble des dossiers pour avoir une cohérence dans les noms de dossiers et également dans les noms de fichiers
-
-// tu rénomme les noms des fichiers dans les trois dossiers restants (actuellement j'ai fait pour grande_taille_poil_court)
-// ensuite tu ajoutes les restes des images dans le dictionnaire ci-dessous en respectant le format
-
-// quand tu auras tout tu peut maintenant commencer à faire le js (voir plus haut)
-
-
 var dict = {
     "Le berger belge malinois" : "./Races/grande_taille_poil_court/Le berger_belge_malinois.jpg",
     "Le saint-hubert" : "./Races/grande_taille_poil_court/Le chien_hubert.jpg",
